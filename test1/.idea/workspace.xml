@@ -1,78 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce941724-6adb-42f4-ae38-32ce6f2e6e14" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7d5835e6-b5f0-4d5e-8ae1-78ee72a4328c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
-  <component name="ProjectId" id="1bCV1MCXcjezS6A5nQsVtoulZ7B" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cU9cHyczNeDvjMFe3z696u0dce" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce941724-6adb-42f4-ae38-32ce6f2e6e14" name="Default Changelist" comment="" />
-      <created>1588135846131</created>
+      <changelist id="7d5835e6-b5f0-4d5e-8ae1-78ee72a4328c" name="Default Changelist" comment="" />
+      <created>1590572382561</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588135846131</updated>
-      <workItem from="1588135849715" duration="659000" />
-      <workItem from="1588480951729" duration="1377000" />
-      <workItem from="1588482831438" duration="1829000" />
-      <workItem from="1588485547198" duration="2095000" />
-      <workItem from="1588487819237" duration="733000" />
-      <workItem from="1588692682275" duration="1712000" />
-      <workItem from="1588694435552" duration="847000" />
-      <workItem from="1589011213989" duration="1380000" />
-      <workItem from="1589012963712" duration="1817000" />
-      <workItem from="1589015423438" duration="1722000" />
-      <workItem from="1589017182369" duration="1563000" />
-      <workItem from="1589018995804" duration="1405000" />
-      <workItem from="1589020810605" duration="755000" />
-      <workItem from="1589022623359" duration="1426000" />
-      <workItem from="1589024443640" duration="473000" />
-      <workItem from="1589099303395" duration="808000" />
-      <workItem from="1589101902616" duration="1202000" />
-      <workItem from="1589103724481" duration="1797000" />
-      <workItem from="1589106577045" duration="1790000" />
-      <workItem from="1589108387198" duration="599000" />
-      <workItem from="1589110492516" duration="1783000" />
-      <workItem from="1589121095563" duration="133000" />
-      <workItem from="1589372054169" duration="1592000" />
-      <workItem from="1589373667659" duration="1816000" />
-      <workItem from="1589375505986" duration="1824000" />
-      <workItem from="1589377359490" duration="599000" />
-      <workItem from="1589379192700" duration="549000" />
-      <workItem from="1589476081628" duration="597000" />
+      <updated>1590572382561</updated>
+      <workItem from="1590572385563" duration="82000" />
+      <workItem from="1590572643628" duration="629000" />
+      <workItem from="1590578748119" duration="681000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1590572438387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590572438387" />
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1590573319159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590573319159" />
+    <state x="342" y="203" key="new project wizard" timestamp="1590573322018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590573322018" />
   </component>
 </project>

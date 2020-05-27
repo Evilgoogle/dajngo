@@ -27,7 +27,7 @@ class news2authors(models.Model):
     news_id = models.IntegerField(null=True, db_index=True)
     author_id = models.IntegerField(null=True, db_index=True)
 
-class authors(models.Model):
+class authors(models.Model):z
     enable = models.BooleanField(default=0)
     access = models.IntegerField(default=1)
     name = models.CharField(max_length=191, null=True)
