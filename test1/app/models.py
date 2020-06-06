@@ -27,7 +27,7 @@ class news2authors(models.Model):
     news_id = models.IntegerField(null=True, db_index=True)
     author_id = models.IntegerField(null=True, db_index=True)
 
-class authors(models.Model):z
+class authors(models.Model):
     enable = models.BooleanField(default=0)
     access = models.IntegerField(default=1)
     name = models.CharField(max_length=191, null=True)
@@ -56,6 +56,11 @@ class goods(models.Model):
 
     def __str__(self):
         return self.title
+
+    @classmethod # Так мы в __init__ можем переопределить встроенные функций модели, расширить их как нам надо. Здесь title будет всегда None когда создается запись через create
+    def create(cls, title):
+        title = cls(title='None')
+        return title
 
     class Meta:
         # app_label = 'TestApp' # Если данная модель относится к другому приложению, то его название тут надо указать.
