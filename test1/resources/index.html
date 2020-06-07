@@ -7,5 +7,11 @@
 <body>
     <h1>Welcome to {{ name }}!</h1>
     <div>{{ age }}</div>
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            {{ form }}
+        </table>
+    </form>
 </body>
 </html>

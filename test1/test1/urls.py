@@ -19,8 +19,7 @@ from django.urls import path, re_path, include
 from app import views
 
 urlpatterns = [
-	path('news/page-<int:var>', views.index),
-	path('app/', include('mini_urls')),
+	path('', views.index),
 	path('grappelli/', include('grappelli.urls')),
     path('admin/', admin.site.urls),
 ]

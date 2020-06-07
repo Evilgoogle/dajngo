@@ -36,11 +36,16 @@ class authors(models.Model):
         self.name = self.name + 'tree' # Расширение
         super().save(self, *args, **kwargs) # Барбара Лисков поддерживается
 
-
+STATUS_CHOICES = [
+    ('d', 'Draft'),
+    ('p', 'Published'),
+    ('l', 'link'),
+]
 class goods(models.Model):
     enable = models.BooleanField(default=0)
     other_position = models.IntegerField(null=True, db_column='position') # db_column - принудельто назвает колонку таблицы, иначе он берется от переменной other_position
     title = models.CharField(max_length=191, null=True)
+    url = models.CharField(max_length=191, null=True)
     image = models.CharField(max_length=191, null=True, editable=True) # editable - отклчаем данные поле для админки и Form
     date = models.DateField(auto_now_add=True)
     created = models.DateTimeField(auto_now_add=True) # auto_now_add - задает текущая время при первом save
@@ -50,9 +55,10 @@ class goods(models.Model):
     decimal = models.DecimalField(max_digits=2, decimal_places=2, null=True) # создает поле типа dicimal
     email = models.EmailField(max_length = 100, blank=True)
     file = models.FileField(max_length=254, upload_to=None, null=True) # upload_to - указываем путь и файл хранение. Если хочу это надо подробно ичучить, есть много методов
-    float = models.FloatField(null=True) # оздает поле double для float данных
+    float = models.FloatField(null=True) # cоздает поле double для float данных
     ip = models.GenericIPAddressField(null=True)
     age = models.IntegerField(null=True)
+    status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='p', null=True)
 
     def __str__(self):
         return self.title
@@ -73,7 +79,7 @@ class goods(models.Model):
             models.Index(fields=['title', 'email'], name='ixIndex'), # Index это специальный класс которая создает тип index в базе
             models.Index(fields=['ip'], name='ixTExt')
         ]
-        ordering = ['created'] # Добавляте order by к запросу
+        ordering = ['-created'] # Добавляте order by к запросу
         unique_together = ['ip'] # Дать unique индекс
 
         # Meta нужен для информация о данном моделе. Он не вводит нечего в поля

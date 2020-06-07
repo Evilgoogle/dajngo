@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5835e6-b5f0-4d5e-8ae1-78ee72a4328c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/libs/converters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mini_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -56,7 +59,8 @@
       <workItem from="1591416013535" duration="6431000" />
       <workItem from="1591442573456" duration="357000" />
       <workItem from="1591442944599" duration="3236000" />
-      <workItem from="1591448234393" duration="2823000" />
+      <workItem from="1591448234393" duration="2929000" />
+      <workItem from="1591503310129" duration="18811000" />
     </task>
     <servers />
   </component>
@@ -75,6 +79,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590573319159" />
+    <state x="1228" y="452" key="NewPhpFileDialog" timestamp="1591524588198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1228" y="452" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591524588198" />
     <state x="922" y="175" key="SettingsEditor" timestamp="1591442933679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
