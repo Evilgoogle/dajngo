@@ -20,6 +20,7 @@ from app import views
 
 urlpatterns = [
 	path('', views.index),
+	path('form', views.form),
 	path('grappelli/', include('grappelli.urls')),
     path('admin/', admin.site.urls),
 ]
