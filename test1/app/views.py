@@ -11,7 +11,7 @@ def index(request):
 		'desc' : 'desc text ...',
 	}
 
-	form = NameForm(data, auto_id=True, label_suffix='[]')
+	form = NameForm(data, auto_id=True, label_suffix='')
 	# auto_id false отключает label теги
 	# label_suffix добавляет - Имя (суффикс)
 	# error_class=myError отрабатываем ошибки через свои класс
@@ -33,9 +33,9 @@ def form(request):
 			'email' : 'almanal@mail.ru',
 			'desc' : 'desc text ...',
 		}
-		test = NameForm(request.POST)
+		test = NameForm(request.POST, initial=data)
 		#test.is_valid()
-		#return HttpResponse(test.cleaned_data)
+		return HttpResponse(test.has_changed())
 		return render(request, 'test.html', {"test": test}) #changed_data
 
 ## Форму можно зполнять
@@ -50,7 +50,7 @@ def form(request):
 #form = NameForm(data)
 #form.is_valid() # True False
 
-## Форма забита или не  забита данными
+## Форма забита или не забита данными
 #form = NameForm(data)
 #return HttpResponse(form.is_bound);
 
