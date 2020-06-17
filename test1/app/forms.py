@@ -22,10 +22,6 @@ class NameForm(forms.Form):
         disabled=True # делает disabled
     )
     email = forms.EmailField(label='Почта')
-    calendar = forms.CharField(
-        label='Date',
-        help_text = 'Выберите Дату',
-    )
     desc = forms.CharField(
         widget=forms.Textarea(attrs={'class': 'textin', 'required': False})
     )
@@ -34,6 +30,11 @@ class NameForm(forms.Form):
     BIRTH_YEAR_CHOICES = ['1980', '1981', '1982']
     birth = forms.DateField(
         widget=forms.SelectDateWidget(years=BIRTH_YEAR_CHOICES)
+    )
+    calendar = forms.CharField(
+        label='Date',
+        help_text = 'Выберите Дату',
+        widget=CalendarWidget()
     )
 
     CHOICES = [('1', 'First'), ('2', 'Second')]
